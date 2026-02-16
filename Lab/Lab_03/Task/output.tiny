@@ -1,0 +1,34 @@
+Keyword: read
+Identifier: x
+Semicolon: ;
+Keyword: if
+Number: 0
+Operator: <
+Identifier: x
+Keyword: then
+Identifier: fact
+Assignment Operator: :=
+Number: 1
+Semicolon: ;
+Keyword: repeat
+Identifier: fact
+Assignment Operator: :=
+Identifier: fact
+Operator: *
+Identifier: x
+Semicolon: ;
+Identifier: x
+Assignment Operator: :=
+Identifier: x
+Operator: -
+Number: 1
+Semicolon: ;
+Keyword: until
+Identifier: x
+Operator: =
+Number: 0
+Semicolon: ;
+Keyword: write
+Identifier: fact
+Semicolon: ;
+Keyword: end

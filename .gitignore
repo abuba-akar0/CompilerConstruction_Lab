@@ -1,0 +1,59 @@
+# Build directories
+cmake-build-*/
+build/
+dist/
+out/
+
+# Compiled and executable files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Intermediate build files
+*.cmake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# IDE and editor files
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS specific files
+Thumbs.db
+.Thumbs.db
+
+# Dependencies and libraries
+*.gch
+*.pch
+
+# Test outputs and logs
+Testing/
+*.log
+LastTest.log
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Ninja build system
+build.ninja
+rules.ninja
+
+# Compile commands (if not needed in repo)
+# compile_commands.json
+

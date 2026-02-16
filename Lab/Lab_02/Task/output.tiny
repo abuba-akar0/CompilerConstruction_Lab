@@ -1,0 +1,8 @@
+readx;
+if0<xthen
+fact:=1;
+repeat
+fact:=fact*x;
+x:=x–1;
+untilx=0;
+writefact;end
