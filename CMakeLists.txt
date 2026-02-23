@@ -13,4 +13,5 @@ add_executable(CompilerConstruction_Lab
         Lab/Lab_01/Task2/Task_2_switch.cpp
         Lab/Lab_02/Task/lexer.cpp
         Lab/Lab_03/Task/scanner.cpp
+        Lab/Lab_04/Task/recursive_parsing.cpp
 )
