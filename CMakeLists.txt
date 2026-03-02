@@ -3,15 +3,14 @@ project(CompilerConstruction_Lab)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CompilerConstruction_Lab
-        "Lab/Lab_01/Practice Task/Practice_Task_Even_a_Odd_b.cpp"
-        "Lab/Lab_01/Practice Task/Practice_Task_goto.cpp"
-        "Lab/Lab_01/Practice Task/Practice_Task_switch.cpp"
-        Lab/Lab_01/Task1/Task_1_goto.cpp
-        Lab/Lab_01/Task1/Task_1_switch.cpp
-        Lab/Lab_01/Task2/Task_2_goto.cpp
-        Lab/Lab_01/Task2/Task_2_switch.cpp
-        Lab/Lab_02/Task/lexer.cpp
-        Lab/Lab_03/Task/scanner.cpp
-        Lab/Lab_04/Task/recursive_parsing.cpp
-)
+add_executable(Lab1.1 Lab/Lab_01/PracticeTask/Practice_Task_Even_a_Odd_b.cpp)
+add_executable(Lab1.2 Lab/Lab_01/PracticeTask/Practice_Task_goto.cpp)
+add_executable(Lab1.3 Lab/Lab_01/PracticeTask/Practice_Task_switch.cpp)
+add_executable(Lab1.4 Lab/Lab_01/Task1/Task_1_goto.cpp)
+add_executable(Lab1.5 Lab/Lab_01/Task1/Task_1_switch.cpp)
+add_executable(Lab1.6 Lab/Lab_01/Task2/Task_2_goto.cpp)
+add_executable(Lab1.7 Lab/Lab_01/Task2/Task_2_switch.cpp)
+add_executable(Lab2 Lab/Lab_02/Task/lexer.cpp)
+add_executable(Lab3 Lab/Lab_03/Task/scanner.cpp)
+add_executable(Lab4 Lab/Lab_04/Task/recursive_parsing.cpp)
+add_executable(Lab5 Lab/Lab_05/Task/recursive_parser2.cpp)
